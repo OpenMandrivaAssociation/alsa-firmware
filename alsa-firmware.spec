@@ -1,7 +1,7 @@
 Summary:	Advanced Linux Sound Architecture (ALSA) tools
 Name:		alsa-firmware
-Version:	1.0.27
-Release:	6
+Version:	1.0.28
+Release:	1
 # use the licenses figured out by Fedora, for a break down of where each license
 # comes from see:
 # http://pkgs.fedoraproject.org/gitweb/?p=alsa-firmware.git;a=blob;f=alsa-firmware.spec
@@ -40,7 +40,7 @@ the alsa-tools-firmware package.
 cp %{SOURCE1} emu/audio_dock_netlist.h
 
 %build
-%configure2_5x \
+%configure \
 	--with-hotplug-dir=/lib/firmware \
 	--disable-loader
 %make
