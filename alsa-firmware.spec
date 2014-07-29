@@ -73,6 +73,11 @@ done
 /lib/firmware/ess/
 /lib/firmware/ctefx.bin
 /lib/firmware/ctspeq.bin
+/lib/firmware/cs46xx/ba1
+/lib/firmware/cs46xx/cwc4630
+/lib/firmware/cs46xx/cwcasync
+/lib/firmware/cs46xx/cwcbinhack
+/lib/firmware/cs46xx/cwcdma
+/lib/firmware/cs46xx/cwcsnoop
 %dir %{_datadir}/alsa/firmware
 %{_datadir}/alsa/firmware/usx2yloader
-
