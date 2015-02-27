@@ -1,4 +1,3 @@
-removed_sources:
-  alsa-firmware-1.0.27.tar.bz2: 91782f07e492f58ce4746a76a66914497fc654fe
+
 sources:
-  alsa-firmware-1.0.28.tar.bz2: 07078bdfe11d542a25b64314ca06120ce4ef1034
+  alsa-firmware-1.0.29.tar.bz2: 414f0b03ea4337c3bd4a9e689f33040173cba529
