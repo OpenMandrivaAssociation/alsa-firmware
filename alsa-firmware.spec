@@ -1,7 +1,7 @@
 Summary:	Advanced Linux Sound Architecture (ALSA) tools
 Name:		alsa-firmware
-Version:	1.0.28
-Release:	3
+Version:	1.0.29
+Release:	1
 # use the licenses figured out by Fedora, for a break down of where each license
 # comes from see:
 # http://pkgs.fedoraproject.org/gitweb/?p=alsa-firmware.git;a=blob;f=alsa-firmware.spec
@@ -43,6 +43,7 @@ cp %{SOURCE1} emu/audio_dock_netlist.h
 %configure \
 	--with-hotplug-dir=/lib/firmware \
 	--disable-loader
+
 %make
 
 # (Fedora) Rename README files from firmware subdirs that have them
